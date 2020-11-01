@@ -15,7 +15,7 @@ public class TestController {
 
     @GetMapping("/echo/{param}")
     public String doecho(@PathVariable String param) {
-        return message + ":" + param;
+        return message + "=>" + param;
     }
     
 }
